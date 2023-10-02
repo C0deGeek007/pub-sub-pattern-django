@@ -1,6 +1,6 @@
 # pub-sub-pattern-django
 
-#prerequisites:
+# prerequisites:
 
 1. make sure that Redis is installed
 2. check that the redis server is running ```systemctl status redis-server```
