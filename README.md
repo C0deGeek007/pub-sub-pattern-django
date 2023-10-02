@@ -36,3 +36,7 @@ The "Student" service sends permission validation requests to the "User" service
 
 # Pub/Sub and Cache-Based Permission Management(I tried to implement this for POC there are many changes that can be made to use it in real system in production):
 Implement a pub/sub mechanism where the "User" service publishes permission updates, and the "Student" service maintains a local cache of user permissions, minimizing the need for frequent external requests.
+
+# Architectural diagram
+![Blank diagram](https://github.com/C0deGeek007/pub-sub-pattern-django/assets/45477155/291e436f-1054-41ea-877d-b499d0a8ddd9)
+
